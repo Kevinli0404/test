@@ -106,7 +106,7 @@ class _YoloVideoState extends State<YoloVideo> {
       /// ,[modelVersion] - yolov5, yolov8
       modelVersion: "yolov5",
       numThreads: 1,
-      useGpu: false,
+      useGpu: true,
     );
     setState(() {
       isLoaded = true;
